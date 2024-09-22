@@ -14,7 +14,7 @@ const loadClient = async () => {
   if (searchQuery) document.getElementById('searchInput').value = searchQuery;
   isSearch = !!searchQuery;
 
-  await fetchVideos(true); // Fetch initial set of videos
+  await fetchVideos(true);
 };
 
 const fetchVideos = async (clearPreviousResults = false) => {
