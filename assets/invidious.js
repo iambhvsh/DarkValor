@@ -4,7 +4,7 @@ let isSearch = false;
 const regionCodes = ['IN'];
 let currentRegionIndex = 0;
 
-const invidiousInstance = 'https://invidious.fdn.fr';
+const invidiousInstance = 'https://inv.nadeko.net';
 
 const loadClient = async () => {
   const videoId = new URLSearchParams(window.location.search).get('video');
